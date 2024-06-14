@@ -1,0 +1,36 @@
+.styleInput{
+    background-color: darkgreen;
+    width: 1800px;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+}
+
+.input {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.btnInput {
+  color: black;
+  border: 2px solid green;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 300ms ease, border-color 300ms ease;
+}
+
+.btnInput:hover {
+  background-color: green;
+  border-color: darkgreen;
+  color: white;
+}
